@@ -14,7 +14,7 @@
     --footer-text-color: var(--field-outlined);
     --card-border-color: #344941;
     --portrait-border-color: var(--secondary);
-    --primary-button: #007c52
+    --primary-button: #007c52 /* rgb(0, 124, 82) */
 }
 
 * {
@@ -51,7 +51,7 @@ a {
     color: var(--primary);
     text-decoration: underline;
     text-decoration-color: var(--field-outlined);
-    text-decoration-thickness: 0.1rem;
+    text-decoration-thickness: 0.07rem;
     cursor: pointer;
 }
 
@@ -59,11 +59,3 @@ strong {
     color: var(--strong-color);
 }
 
-button {
-    display: inline-block;
-    background: var(--primary-button);
-    border: none;
-    padding: 8px;
-    cursor: pointer;
-    color: white;
-}
